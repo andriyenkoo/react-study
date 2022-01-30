@@ -1,23 +1,12 @@
 import React from 'react';
-import Users from "./components/Users";
-import Comments from "./components/Comments";
-import Posts from "./components/Posts";
-
+import Flights from "./components/Flights";
 
 const App = () => {
-
 
     return (
         <div>
 
-            <div className={'header'}>
-                <Users/>
-                <Posts/>
-            </div>
-
-            <hr/>
-
-            <Comments/>
+            <Flights/>
 
         </div>
     );
